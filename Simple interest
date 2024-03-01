@@ -1,0 +1,6 @@
+Principle = float(input("Enter the principle: "))
+Year = float(input("Enter the number of years: "))
+Rate = float(input("Enter the rate of interest: "))
+si = (Principle*Year*Rate)/100
+
+print("The simple interset is:", si)
